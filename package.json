@@ -5,7 +5,10 @@
   "main": "app.js",
   "directories": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev:server": "nodemon app.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
   },
   "author": "",
   "license": "ISC",

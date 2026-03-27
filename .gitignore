@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Build output (regenerate with: npm run build)
+public/
+
+# Database
+semaphore.db
+
+# Uploaded payment screenshots
+uploads/*
+!uploads/.gitkeep
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
